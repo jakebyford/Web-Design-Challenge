@@ -12,7 +12,7 @@
   </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light backgroundcolor">
         <a class="navbar-brand" style = "background-color: skyblue" href="../Solved/index.html">Dashboard</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,13 +24,14 @@
                   Plots 
                 </a>
                 <ul class="dropdown-menu blackBg">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="../Solved/max_temps.html">Max Temperature</a></li>
+                  <li><a class="dropdown-item" href="../Solved/humidity.html">Humidity</a></li>
+                  <li><a class="dropdown-item" href="../Solved/cloudiness.html">Cloudiness</a></li>
+                  <li><a class="dropdown-item" href="../Solved/wind_speed.html">Wind Speed</a></li>
                 </ul>
               </li>
-            <a class="nav-link" href="#">Comparasion</a>
-            <a class="nav-link" href="../07-Ins_ResponsiveCols/Solved/index.html">Data</a>
+            <a class="nav-link" href="../Solved/comparison.html">Comparison</a>
+            <a class="nav-link" href="../Solved/data.html">Data</a>
           </div>
         </div>
       </nav>
@@ -39,9 +40,9 @@
 
 
   
-
+<div class = "container">
   <div class = "row">
-      <div class="col-md-8">
+      <div class="col-lg-8 col-md-8">
         <div class="card card-1">
           <strong><h3 class = "title">Summary: Latitude vs. X</h3></strong>
           <hr>
@@ -57,17 +58,17 @@
      
    
   
-    <div class = "col-md-4">
+    <div class = "col-lg-4 col-md-4">
       <div class = "card card-2">
           <section style = "width = 100%">
           <strong><h3 class = "title">Visualizations</h3></strong>
           <hr>
-              <a><img src="../Resources/assets/images/Fig1.png" alt="Jake Byford" class ="viz" /></a>
-              <a><img src="../Resources/assets/images/Fig2.png" alt="Jake Byford" class ="viz" /></a>
+              <a href="../Solved/max_temps.html"><img src="../Resources/assets/images/Fig1.png" alt="Jake Byford" class ="viz" /></a>
+              <a href="../Solved/humidity.html"><img src="../Resources/assets/images/Fig2.png" alt="Jake Byford" class ="viz" /></a>
               
               
-              <a><img src="../Resources/assets/images/Fig3.png" alt="Jake Byford" class ="viz" /></a>
-              <a><img src="../Resources/assets/images/Fig4.png" alt="Jake Byford" class ="viz" /></a>
+              <a href="../Solved/cloudiness.html"><img src="../Resources/assets/images/Fig3.png" alt="Jake Byford" class ="viz" /></a>
+              <a href="../Solved/wind_speed.html"><img src="../Resources/assets/images/Fig4.png" alt="Jake Byford" class ="viz" /></a>
           </section>  
             
       </div>
@@ -77,7 +78,7 @@
 
 
 
-
+</div>
 <div id="page-container">
     <div id="content-wrap">
     <!-- all other page content -->
@@ -87,3 +88,4 @@
     </footer>
 </div>
 </body>
+</html>
