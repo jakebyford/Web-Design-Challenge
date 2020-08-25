@@ -11,13 +11,6 @@ body {
       margin-bottom: 20px;
   }
 
-  /* @media (min-width: 800px) {
-      .navbar-nav {
-      position: absolute;
-      padding: 45px;
-      left: 75%;
-      }
-    }*/
   .navbar-brand {
       padding: 10px;
   }
@@ -81,8 +74,8 @@ body {
   }
 
   .maxtemp {
-    width: 650px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
   }
 
   .maxtemp:hover {
@@ -103,16 +96,16 @@ body {
   }
 
     .viz {
-      width: 225px;
-      height: 200px;
+      width: 100%;
+      height: 100%;
     }
     .compare {
-      width: 225px;
-      height: 200px;
+      width: 100%;
+      height: 100%;
     }
     .maxtemp {
-      width: 225px;
-      height: 200px;
+      width: 100%;
+      height: 100%;
       text-align: center;
     }
   
