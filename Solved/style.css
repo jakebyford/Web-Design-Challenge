@@ -91,7 +91,7 @@ body {
     box-shadow: 0 0 10px #ccc;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 500px) {
 
     .align-left {
       width: 200px;
