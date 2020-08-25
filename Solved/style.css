@@ -95,7 +95,7 @@ body {
 
     .align-left {
       width: 200px;
-      height: 100px;
+      height: 125px;
     }
 
     .backgroundcolor {
@@ -103,15 +103,15 @@ body {
   }
 
     .viz {
-      width: 325px;
+      width: 275px;
       height: 200px;
     }
     .compare {
-      width: 325px;
+      width: 2755px;
       height: 200px;
     }
     .maxtemp {
-      width: 325px;
+      width: 275px;
       height: 200px;
       text-align: center;
     }
